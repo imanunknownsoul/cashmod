@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="cashmod"
+version="1.0.0"
+displayName="Cash Mod"
+authors="You"
+description='''
+Adds dollar bills, an hourly paycheck, a /sell window and a bank with /bank, /bankdeposit and /bankwithdraw.
+'''
+
+[[dependencies.cashmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cashmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
